@@ -1,7 +1,5 @@
 My study notes and exercise solutions for the book "Beginning Algorithm Contests" (2nd edition) by Liu Rujia.
 
-《算法竞赛入门经典》（第2版）（刘汝佳著）的读书笔记和习题解答。
-
 [I] Programming Languages
 1. Introduction
 2. Loop Structures
@@ -19,6 +17,9 @@ My study notes and exercise solutions for the book "Beginning Algorithm Contests
 10. Maths
 11. Graph Theory
 12. Advanced Topics
+
+
+《算法竞赛入门经典》（第2版）（刘汝佳著）的读书笔记和习题解答。
 
 （一）语言篇
 1. 程序设计入门
