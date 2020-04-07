@@ -3,8 +3,8 @@ My study notes and exercise solutions for the book "Beginning Algorithm Contests
 《算法竞赛入门经典》（第2版）（刘汝佳著）的读书笔记和习题解答。
 
 [I] Programming Languages
-1. Introduction
-2. Loop Structures
+1. Getting Started
+2. Loop Constructs
 3. Arrays and Strings
 4. Functions and Recursion
 5. C++ and STL
