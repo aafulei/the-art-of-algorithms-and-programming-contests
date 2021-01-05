@@ -8,7 +8,9 @@
 #include <queue>
 #include <set>
 #include <vector>
+
 using namespace std;
+
 constexpr int A[3] = {2, 3, 5};
 
 long long solve(int n)
