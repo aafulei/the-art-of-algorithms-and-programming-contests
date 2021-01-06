@@ -1,5 +1,4 @@
-temp*
-trash*
+.DS_Store
 
 *.exe
 *.out

@@ -36,6 +36,6 @@ long long solve(int n)
 
 int main()
 {
-    printf("The 1500th ugly number is %lld\n", solve(1500));
+    printf("The 1500'th ugly number is %lld.\n", solve(1500));
     return 0;
 }
