@@ -1,8 +1,5 @@
 // UVa 136 Ugly Numbers
 
-// Ugly numbers are numbers whose only prime factors are 2, 3 or 5.
-// Find the 1500th ugly number.
-
 #include <cstdio>
 #include <functional>
 #include <queue>

@@ -12,7 +12,6 @@
 #define INS(x) inserter(x, x.end())
 
 using namespace std;
-
 typedef set<int> Set;
 
 map<Set, int> set2id;
