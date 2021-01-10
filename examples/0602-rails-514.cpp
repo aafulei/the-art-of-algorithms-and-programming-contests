@@ -6,7 +6,6 @@
 using namespace std;
 
 const int M = 1000 + 10;
-
 int target[M];
 
 int main()
