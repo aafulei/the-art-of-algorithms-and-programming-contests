@@ -10,7 +10,7 @@ using namespace std;
 
 const int M = 1000 + 10;
 
-void solve()
+int main()
 {
     int T, kase = 0;
     while (scanf("%d", &T) == 1 && T) {
@@ -50,10 +50,5 @@ void solve()
         }
         printf("\n");
     }
-}
-
-int main()
-{
-    solve();
     return 0;
 }

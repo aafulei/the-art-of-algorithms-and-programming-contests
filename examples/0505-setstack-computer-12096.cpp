@@ -27,9 +27,8 @@ int id(const Set & s)
     return set2id[s];
 }
 
-void solve()
+int main()
 {
-    int T;
     scanf("%d", &T);
     while (T--) {
         int n;
@@ -62,10 +61,5 @@ void solve()
         }
         printf("***\n");
     }
-}
-
-int main()
-{
-    solve();
     return 0;
 }
