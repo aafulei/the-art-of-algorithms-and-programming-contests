@@ -6,7 +6,7 @@
 using namespace std;
 
 const int M = 1000 + 10;
-int target[M];
+int out[M];
 
 int main()
 {
@@ -15,8 +15,8 @@ int main()
         int end = 0;
         while (!end) {
             for (int i = 1; i <= n; ++i) {
-                scanf("%d", &target[i]);
-                if (target[1] == 0) {
+                scanf("%d", &out[i]);
+                if (out[1] == 0) {
                     end = 1;
                     break;
                 }
@@ -28,16 +28,16 @@ int main()
             stack<int> s;
             int bad = 0;
             while (i != n+1 && !bad) {
-                while (target[i] > next) {
+                while (out[i] > next) {
                     s.push(next);
                     ++next;
                 }
-                if (target[i] == next) {
+                if (out[i] == next) {
                     ++i;
                     ++next;
                 }
                 else {
-                    if (!s.empty() && s.top() == target[i]) {
+                    if (!s.empty() && s.top() == out[i]) {
                         s.pop();
                         ++i;
                     }
