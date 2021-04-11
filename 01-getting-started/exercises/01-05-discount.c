@@ -3,9 +3,8 @@
 int main()
 {
     int n;
-    float sum;
     scanf("%d", &n);
-    sum = n * 95.0;
+    float sum = 95 * n;
     if (sum >= 300)
         printf("%.2f\n", sum * 0.85);
     else
