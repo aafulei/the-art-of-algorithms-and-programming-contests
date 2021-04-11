@@ -1,4 +1,4 @@
-/*  gcc -ansi -pedantic -Wall -Wextra lab-01-05-printf.c
+/*  gcc -ansi -pedantic -Wall -Wextra
  *  warning: ISO C90 does not support the '%lf' gnu_printf / ms_printf format
  */
 
