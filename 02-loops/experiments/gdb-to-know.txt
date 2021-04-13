@@ -1,0 +1,30 @@
+run
+---
+gcc -g test.c -o test.exe
+gdb a.exe
+
+use
+---
+help
+list
+break
+run
+continue
+next
+step
+until
+print
+display (delete, disable, enable)
+clear
+info
+delete
+
+advanced
+--------
+help stack
+backtrace (bt)
+commands (comm)
+ignore (ig)
+condition (cond)
+watch / awatch / rwatch
+call
